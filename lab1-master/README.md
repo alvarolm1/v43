@@ -24,32 +24,4 @@ y relaciónalos con los resultados analizados
     * El informe se debe subir a la carpeta [results/task4](results/task4) con el nombre caracteristicas.md
 
 # Participantes
-**INDICA AQUÍ LOS PARTICIPANTES**
-
-# Enlaces de utilidad
-- [Sintaxis markdown](https://guides.github.com/features/mastering-markdown/)
-
----
-
-# Laboratory 1: Getting Acquainted with the Environment
-The objective of this practice is for you to become familiar with the tools we will use during the course labs.
-
-# Tasks
-
-1. Compile and run the program matmul.cpp, saving the execution result in results/task1/task1.txt. For the compilation, use the g++ compiler and add the compiler options -g, -O0 and -fopenmp. The -g option adds debugging information and it's advisable to use it whenever you're going to analyze a program's performance with Intel Advisor. The -fopenmp option links the OpenMP libraries for parallel programming. The switch -O0 disables default optimizations.
-2. Perform an analysis with Survey and Characterization types (Trip Counts and FLOP) on your PC using the Intel Advisor graphical interface:
-  * Once the analysis is done, you should see a warning at the top with the message **Some target modules are not compiled with optimization enabled and with version 15.0 or higher of the Intel compiler**. What does this warning indicate? How would you solve this problem so that the warning disappears (it might not be possible to eliminate all warnings)? (**hint**: it has to do with the compiler used, check the compilers you have with intel oneAPI, once you find the right one **you should use it for all practices, including the remaining tasks of this lab**). Save the analysis results with the warning by taking a snapshot of Intel Advisor (important not to confuse it with a screenshot) named **warning** in [results/task2](results/task2).
-  * Recompile the code with the appropriate compiler. Save the analysis results without the warning by taking a snapshot of Intel Advisor. This snapshot should be uploaded to the repository in results/task2 named snapshot.
-3. Compare and **analyze** the results, emphasizing time, performance, and memory measures. Upload the report to the [results/task3](results/task3) folder named comparacion.md. The report must be in markdown format.
-4. Identify the key characteristics of the systems on which you have run the analyses (processor, memory, cache, etc.) and relate them to the analyzed results.
-Upload the report to the [results/task4](results/task4) folder with the name caracteristicas.md.
-
-
-# Participants
-**INDICATE PARTICIPANTS HERE**
-
-# Useful Links
-
-[Markdown syntax](https://guides.github.com/features/mastering-markdown/)
-
-
+Álvaro López Megía

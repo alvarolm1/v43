@@ -1,0 +1,19 @@
+# Task 3
+
+**3- Compara y analiza los resultados haciendo énfasis en las medidas de tiempo, rendimiento y memoria:** 
+
+Tiempo 1 de CPU: 0,08s; Tiempo 2 de CPU: 0,07s
+
+Sabiendo que el rendimiento es la inversa del tiempo de CPU:
+
+- <u>Rendimiento 1:</u> 1/tiempo de CPU = 1/0,08 = 12,5 
+
+- <u>Rendimiento 2:</u> 1/0,07 = 14,3
+
+- <u>Rendimienot comparativo:</u>  14,3/12,5=1,144
+
+Por lo que el rendimiento es **1,144 veces mejor**
+
+Además, los GFLOPS en el mejorado son algo mayores.
+
+Para memoria se utiliza un 56%.
